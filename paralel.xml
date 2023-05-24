@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Paralel Test Suite" parallel="classes">
+
+    <test name="Paralel Test 1">
+        <classes>
+            <class name="tests.US_022_T.TC_022_2_T"></class>
+        </classes>
+    </test>
+
+    <test name="Paralel Test 2">
+        <classes>
+            <class name="tests.US_022_T.TC_022_3_T"></class>
+        </classes>
+    </test>
+
+    <test name="Paralel Test 3">
+        <classes>
+            <class name="tests.US_022_T.TC_022_1_T"></class>
+        </classes>
+    </test>
+
+</suite>
